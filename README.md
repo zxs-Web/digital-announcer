@@ -14,7 +14,7 @@
 
 ## 下载
 
-前往 **<https://github.com/zxs-Web/digital-announcer/releases>** 下载最新版本的 zip 压缩包，解压后双击 `数字播报工具.exe` 即可运行。
+前往 **<https://github.com/zxs-Web/digital-announcer/releases>** 下载最新版本的 zip 压缩包（`digital-announcer-v1.0.0.zip`，17.4 MB），解压后双击 `数字播报工具.exe` 即可运行。
 
 > 不要解压在 `C:\Program Files` 下，避免权限问题。不需要联网，不需要另外安装运行库（pywin32 已打包进 exe）。
 
@@ -22,14 +22,14 @@
 <summary>下载包校验（SHA-256）</summary>
 
 ```
-数字播报工具协议V1.0.zip
+digital-announcer-v1.0.0.zip
 6A6A0EFED4E38F001C12D6A08C0C48E72735842DDC88AEEF8D7AEEECC5DCF6C7
 ```
 
 Windows 校验命令：
 
 ```powershell
-Get-FileHash .\数字播报工具协议V1.0.zip -Algorithm SHA256
+Get-FileHash .\digital-announcer-v1.0.0.zip -Algorithm SHA256
 ```
 
 </details>
