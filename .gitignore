@@ -1,0 +1,34 @@
+# ── 可执行程序 / 安装包（走 Releases，不进仓库）──
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+
+# ── 程序运行时生成的配置与缓存 ──
+gl_voice_config.json
+*.log
+*.tmp
+
+# ── 系统杂项 ──
+Thumbs.db
+desktop.ini
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+.DS_Store
+
+# ── 编辑器 / IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Python（若日后公开工具脚本）──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.spec
